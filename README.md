@@ -84,7 +84,6 @@ ClickUp Task: CU-869AUPBU6
 Create a `.env` file in the same directory as the scripts:
 
 ```bash
-# In $HOME/clickUpScripts/
 echo 'CLICKUP_API_TOKEN="pk_your_actual_token_here"' > .env
 ```
 
