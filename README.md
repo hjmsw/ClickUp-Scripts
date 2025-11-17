@@ -50,7 +50,7 @@ ClickUp Task: CU-869AUPBU6
 ## Prerequisites
 
 ### Required Dependencies
-- **jq**: JSON processor for parsing ClickUp API responses (often pre-installed)
+- **jq**: JSON processor (often pre-installed)
   ```bash
   # Ubuntu/Debian
   sudo apt install jq
@@ -74,7 +74,7 @@ ClickUp Task: CU-869AUPBU6
 3. **Navigate to Apps**: Click **Apps** in the left sidebar
 4. **Generate Token**: 
    - Scroll down to **API Token** section
-   - Click **Generate** (or **Regenerate** if you already have one)
+   - Click **Generate**
    - Copy the generated token (it looks like `pk_123456789_ABC...`)
 
 ⚠️ **Important**: Keep this token secure and never commit it to version control!
