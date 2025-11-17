@@ -7,7 +7,7 @@ Useful shell scripts for interacting with ClickUp tasks from the command line.
 ### 1. `clickup-task-info.sh`
 **Purpose**: Automatically extracts ClickUp task information from your current Git branch name and displays task details.
 
-**Use Case**: When working on a feature branch named with a ClickUp task ID (e.g., `feature/CU-869aupbu6-implement-login`), this script will:
+**Use Case**: When working on a feature branch named with a ClickUp task ID (e.g., `feature/CU-869aupbu6`), this script will:
 - Extract the task ID from the branch name
 - Fetch task details from the ClickUp API
 - Display formatted task information including title, status, and assignees
